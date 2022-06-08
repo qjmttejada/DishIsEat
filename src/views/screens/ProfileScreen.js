@@ -3,7 +3,6 @@ import {SafeAreaView, StyleSheet, View, Text, Image} from 'react-native';
 import {FlatList, ScrollView} from 'react-native-gesture-handler';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import COLORS from '../../consts/colors';
-import foods from '../../consts/foods';
 import {PrimaryButton} from '../components/Button';
 
 const ProfileScreen = ({navigation}) => {
@@ -24,7 +23,7 @@ const ProfileScreen = ({navigation}) => {
       <View style={style.details}>
         <Image
               style={{
-                width: '100%',
+                width: '96%',
                 resizeMode: 'contain',
                 top: -64,
                 right: 0

@@ -33,6 +33,7 @@ const RecommenderScreen = ({navigation}) => {
                 position: 'absolute',
                 right: 0,
                 top: -80}}
+
                 placeholder="   Enter an ingredient                                                               "/>
             </View>
             <View style={{
@@ -95,7 +96,7 @@ const RecommenderScreen = ({navigation}) => {
         </SafeAreaView>
       );
     };
-    
+
     const style = StyleSheet.create({
       textContainer: {
         flex: 1,

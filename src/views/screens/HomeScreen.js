@@ -3,7 +3,6 @@ import {SafeAreaView, StyleSheet, View, Text, Image} from 'react-native';
 import {FlatList, ScrollView} from 'react-native-gesture-handler';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import COLORS from '../../consts/colors';
-import foods from '../../consts/foods';
 import {PrimaryButton} from '../components/Button';
 
 const HomeScreen = ({navigation}) => {
@@ -12,7 +11,7 @@ const HomeScreen = ({navigation}) => {
       <View style={style.header}>
       <Image
               style={{
-                width: '95%',
+                width: '94%',
                 resizeMode: 'contain',
                 top: 0,
                 right: -10,
